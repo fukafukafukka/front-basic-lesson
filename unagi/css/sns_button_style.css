@@ -1,0 +1,159 @@
+/* 携帯用 */
+@media (max-width: 767px) {
+  .sns_box {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    /*outline: 1px solid #ff0000;*/
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .sns_box a {
+    color: #fff;
+    background: rgba(130, 116, 92, 0.45);
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-family: fontawesome;
+    font-size: 10px;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    padding-top: 5px;
+    margin: 0 3px;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .sns_box a:hover {
+    background: #7d986f;
+  }
+
+  /* pop-up text */
+  .sns_box a span {
+    color: #ffffff;
+    position: absolute;
+    font-family: sans-serif;
+    bottom: 0;
+    left: -25px;
+    right: -25px;
+    padding: 5px 7px;
+    z-index: -1;
+    font-size: 14px;
+    border-radius: 2px;
+    background: rgba(130, 116, 92, 0.45);
+    visibility: hidden;
+    opacity: 0;
+    -o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  /* pop-up text arrow */
+  .sns_box a span:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position: absolute;
+    bottom: -5px;
+    left: 40px;
+  }
+
+  /* text pops up when icon is in hover state */
+  .sns_box a:hover span {
+    bottom: 50px;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+/* PC用 */
+/*@media終わり*/
+@media (min-width: 768px) {
+  .sns_box {
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  /* Icons */
+  .sns_box a {
+    color: #fff;
+    background: rgba(130, 116, 92, 0.45);
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-family: fontawesome;
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    padding-top: 9px;
+    margin: 0 10px;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .sns_box a:hover {
+    background: #7d986f;
+  }
+
+  /* pop-up text */
+  .sns_box a span {
+    color: #ffffff;
+    position: absolute;
+    font-family: sans-serif;
+    bottom: 0;
+    left: -25px;
+    right: -25px;
+    padding: 5px 7px;
+    z-index: -1;
+    font-size: 14px;
+    border-radius: 2px;
+    background: rgba(130, 116, 92, 0.45);
+    visibility: hidden;
+    opacity: 0;
+    -o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  /* pop-up text arrow */
+  .sns_box a span:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position: absolute;
+    bottom: -5px;
+    left: 40px;
+  }
+
+  /* text pops up when icon is in hover state */
+  .sns_box a:hover span {
+    bottom: 50px;
+    visibility: visible;
+    opacity: 1;
+  }
+}

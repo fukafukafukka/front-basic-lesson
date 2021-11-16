@@ -1,0 +1,25 @@
+.panel#panel1-4 {
+  text-align: left;
+}
+
+/* 携帯*/
+@media (max-width: 767px) {
+  #map {
+    margin: 30px auto;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-top: 56.25%;
+  }
+}
+
+/* PC */
+@media (min-width: 768px) {
+  #map {
+    margin: 30px auto;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-top: 56.25%;
+  }
+}

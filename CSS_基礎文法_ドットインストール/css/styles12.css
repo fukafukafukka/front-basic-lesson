@@ -1,0 +1,31 @@
+.box1 {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+}
+
+.box2 {
+  background-color: skyblue;
+  width: 100px;
+  height: 100px;
+  /* position: static; */
+  position: relative;
+}
+
+.box3 {
+  background-color: tomato;
+  width: 100px;
+  height: 100px;
+}
+
+.rect {
+  width: 50px;
+  height: 20px;
+  background-color: lime;
+  position: absolute;
+  /* top: 30px;
+  left: 10px; */
+  /* 以下、マイナスの値を使うと枠から外れる感じになる。 */
+  top: -5px;
+  right: -5px;
+}

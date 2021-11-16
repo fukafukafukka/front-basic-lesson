@@ -1,0 +1,26 @@
+.box1 {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+}
+
+.box2 {
+  background-color: skyblue;
+  width: 100px;
+  height: 100px;
+  /* position: static; */
+  /* staticからみて30px下、30px左に配置という意味 */
+  /* position: relative;
+  top: 30px;
+  left: 30px; */
+  /* windowの左上を起点にして配置される */
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+
+.box3 {
+  background-color: tomato;
+  width: 100px;
+  height: 100px;
+}

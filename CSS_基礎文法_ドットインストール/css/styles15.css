@@ -1,0 +1,20 @@
+.box1 {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+}
+
+.box2 {
+  /* これを使うことで枠線もwidth,heightのサイズ内に納まる */
+  box-sizing: border-box;
+  background-color: skyblue;
+  width: 100px;
+  height: 100px;
+  border: 10px solid blue;
+}
+
+.box3 {
+  background-color: tomato;
+  width: 100px;
+  height: 100px;
+}

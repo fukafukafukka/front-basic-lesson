@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+
+  /* 横の調節 */
+  /* grid-template-columns: 100px 100px 100px 100px; */
+  /* 上と同じ意味 */
+  /* grid-template-columns: repeat(4, 100px); */
+  /* 以下、ブラウザ幅に応じて列の個数が変えるようにする。 */
+  /* grid-template-columns: repeat(auto-fill, 100px); */
+  /* 列が増えるまでの幅をなくしつつ、列の幅増やす方法。1つ1つの列の幅を100px~1fractionの間にしてねという意味。 */
+  /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+  /* さらに画面幅を増やしていった時に右側に余白ができるのを防ぐ方法 */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+  /* 縦の調節 */
+  grid-template-rows: 100px 100px;
+}
+
+.box1 {
+  background: hsl(0, 60%, 60%);
+}
+
+.box2 {
+  background: hsl(60, 60%, 60%);
+}
+
+.box3 {
+  background: hsl(120, 60%, 60%);
+}
+
+.box4 {
+  background: hsl(180, 60%, 60%);
+}
+
+.box5 {
+  background: hsl(240, 60%, 60%);
+}

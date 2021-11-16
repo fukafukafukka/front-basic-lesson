@@ -1,0 +1,10 @@
+header {
+  height: 80px;
+  /* background-color: pink;
+  background-image: url(../img/header.png);
+  background-size: cover;
+  background-position: center; */
+
+  /* 上記の同じ内容 */
+  background: center/cover pink url(../img/header.png);
+}

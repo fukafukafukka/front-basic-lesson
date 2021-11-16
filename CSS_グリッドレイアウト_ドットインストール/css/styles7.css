@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+
+  grid-template-columns: 100px [target-start] 100px 100px [target-end];
+  /* grid-template-columns: 100px 100px [target-start] 100px [target-end]; */
+  grid-template-rows: 100px 100px;
+}
+
+.box1 {
+  background: hsl(0, 60%, 60%);
+  grid-row: 2;
+  /* grid-column: target-start / target-end; */
+  grid-column: target;
+}
+
+.box2 {
+  background: hsl(60, 60%, 60%);
+}
+
+.box3 {
+  background: hsl(120, 60%, 60%);
+}
+
+.box4 {
+  background: hsl(180, 60%, 60%);
+}
+
+.box5 {
+  background: hsl(240, 60%, 60%);
+}

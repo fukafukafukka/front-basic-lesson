@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="./js/enum.js"></script>
+	<script type="text/javascript" src="./js/turn.js"></script>
+	<script type="text/javascript" src="./js/gun.js"></script>
+	<script type="text/javascript" src="./js/shell.js"></script>
+	<script type="text/javascript" src="./js/tankBody.js"></script>
+	<script type="text/javascript" src="./js/caterpillar.js"></script>
+	<script type="text/javascript" src="./js/engine.js"></script>
+	<script type="text/javascript" src="./js/fueltank.js"></script>
+</head>
+
+<body>
+	<script type="module">
+		let turn = new Turn();
+		let engine = new Engine(0,0,"01");
+		let fuelTank = new FuelTank(0,0, "01");
+		let shellA = new Shell("A", 50, 1000, 16);
+		let shellB = new Shell("B", 30, 2000, 8);
+		let gun = new Gun(0, 0, '01', 'North', Direction, turn);
+		let tankBody = new TankBody(0, 0, "A");
+		let caterpillar = new Caterpillar(0, 0, "01", 'North', Direction, turn);
+
+		fuelTank.refueling(100);
+		tankBody.setOnCaterpillar(caterpillar);
+		tankBody.setOnGun(gun);
+		tankBody.setOnEngine(engine);
+		tankBody.setOnFuelTank(fuelTank);
+
+		engine.getStart();
+		engine.stop();
+		engine.getStart();
+		fuelTank.getAmountOfFuel();
+
+		caterpillar.move(200);
+		caterpillar.turnRight();
+		caterpillar.turnLeft();
+		caterpillar.turnBack();
+		caterpillar.turnRight();
+		caterpillar.move(200);
+
+		gun.turnLeft();
+		gun.turnBack();
+		gun.turnRight();
+		gun.addShells(shellA);
+		gun.addShells(shellB);
+		gun.fire();
+		gun.fire();
+
+	</script>
+</body>
+
+</html>

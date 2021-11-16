@@ -1,0 +1,17 @@
+# Vue component 使い方
+## main.jsとは
+- Vue CLI で作成されたフォルダにおいて、main.jsが山の頂点的なイメージでApp.vueとsrcディレクトリ配下のassetsやcomponentsをまとめた上で、public配下のindex.htmlに埋め込んでいる。
+## .vueファイルとは
+- main.jsの以下の定義におけるh(App)で埋め込むことができるオブジェクト。
+new Vue({
+  render: h => h(App),
+}).$mount('#app')
+- コンポーネント以外だと、以下のようにテンプレートを埋め込んでいたりした。
+new Vue({
+  render: h => h('div', 'こんにちは'),
+}).$mount('#app')
+
+## 本番へのデプロイどうするのか
+- npm run build コマンドを実行することでdistディレクトリが作成される。
+  本番ではこっちのファイルをあげる。
+  開発中は、npm run serveでサーバーによってhttpリクエストによるファイルの開発にしてあげることで、開発しやすくしてあげている。

@@ -1,0 +1,7 @@
+/* [target] { */
+/* [href="#top"] { */
+/* [href^="https"] { */
+/* [href$="dotinstall"] { */
+  [href*="com"] {
+    font-weight: bold;
+  }

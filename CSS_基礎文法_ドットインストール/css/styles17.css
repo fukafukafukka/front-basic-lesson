@@ -1,0 +1,22 @@
+.box1 {
+  background-color: orange;
+  /* width: 100px; */
+  width: calc((100% - 40px) / 3);
+  height: 100px;
+}
+
+.box2 {
+  background-color: skyblue;
+  /* width: 100px; */
+  width: calc((100% - 40px) / 3);
+  height: 100px;
+  margin: 0 auto;
+}
+
+.box3 {
+  background-color: tomato;
+  /* width: 100px; */
+  width: calc((100% - 40px) / 3);
+  height: 100px;
+  margin-left: auto;
+}

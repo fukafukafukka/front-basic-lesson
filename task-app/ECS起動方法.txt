@@ -1,0 +1,12 @@
+Dockerfileを元にイメージをビルド。タグ名がAWS ECRのリポジトリ名になる。
+docker build -t app/task-manage .
+
+ビルドしたイメージからコンテナを起動。
+docker run -it -p 8080:8080 --rm --name task-manage app/task-manage
+
+docker tag app/task-manage:latest 428992835604.dkr.ecr.ap-northeast-1.amazonaws.com/app/task-manage:latest
+
+aws ecr get-login --region ap-northeast-1 --profile default --no-include-email
+
+Access key ID,Secret access key
+AKIAWHYPXGAKI7GV4FRS,eHYTcpoHDgqbq6bqxAtS7hgk8raUbG01ImTNClir

@@ -1,0 +1,21 @@
+.box1 {
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+  /* margin-bottom: 20px; */
+  margin: 0 0 20px;
+  /* box1が作成された時の右側の余白が左側に移るという意味 */
+  margin-left: auto;
+  /* 以下の指定を上のものに追加する形で書くとbox1が中央揃えになる */
+  margin-right: auto;
+}
+
+.box2 {
+  background-color: skyblue;
+  width: 50%;
+  height: 50%;
+}
+
+.box3 {
+  background-color: tomato;
+}

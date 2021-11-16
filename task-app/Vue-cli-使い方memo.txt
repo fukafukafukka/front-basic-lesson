@@ -1,0 +1,52 @@
+# Vue CLI
+cli:コマンドラインインターフェース
+
+## Vue CLI なぜ使うのか
+- ファイルを分割するため
+- 最終的なコードの軽量化をするため
+- Babel, TypeScript, ESLintなどのpluginの使用
+- HMR(Hot Module Replacement)で開発するため
+- .vue、TS、SCSS、Pug、ES6などを使用するため
+
+## なぜNodejs(サーバー)を使うのか
+- 開発中はサーバー(Nodejs)を立てる。が、
+- 公開する時はサーバーを必要としない。
+→ 上記でも説明したHMRを使って開発したほうがやりやすいから。
+→ あとは、HTTPプロトコルによることによって、より実践的に開発できるから。ファイルだけで静的な開発だとHTTPリクエスト使わない。
+
+## Vue CLIのインストールと初期設定を行う
+- npm:nodejsのパッケージ管理マネージャー。macだったらblew、pythonだったらpip。
+### Vue CLIのインストールコマンド
+- npm install -g(全フォルダに入るという意味) @vue/cli(3系のVue CLIの名称。他のバージョンの場合はここの名前が異なる。)
+
+→ 上記のコマンドが終わるとコマンド「vue」が使えるようになっている。
+- vue--version とか。
+
+## Vue CLIを使ったプロジェクトの作成
+- vue create udemy-vuejs(プロジェクト名をここに書く)
+
+以下実行すると聞かれるもの
+```
+Vue CLI v4.4.6
+? Please pick a preset: (Use arrow keys)
+❯ default (babel, eslint) 
+  Manually select features 
+```
+→ defaultを選択。
+
+## デベロップメントサーバー(Nodejs)の起動方法
+npm run serve
+
+以下のようにコマンドラインに表示されて実際にファイルを見れるようになる。
+```
+DONE  Compiled successfully in 9137ms                                    17:55:30
+  App running at:
+  - Local:   http://localhost:8080/ 
+  - Network: http://10.74.103.97:8080/
+
+  Note that the development build is not optimized.
+  To create a production build, run npm run build.
+```
+→ 以上によりサーバーからHTMLファイルが返されるようになる。
+
+## npm run serveで作成されたファイルたちについて。

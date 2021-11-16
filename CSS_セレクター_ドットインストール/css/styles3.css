@@ -1,0 +1,12 @@
+.btn {
+  width: 100px;
+  background: skyblue;
+  text-align: center;
+  padding: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}

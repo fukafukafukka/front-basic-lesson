@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+dl {
+  margin: 0 auto 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 洗濯されたタブの中の四角の色 */
+dt {
+  font-size: 70%;
+  color: #000000;
+  background: rgba(185, 171, 144, 0.67);
+  padding: 8px 12px;
+  border-radius: 3px;
+  margin: 0 0 2px;
+}
+
+dd {
+  display: none;
+  font-size: 60%;
+  color: #000000;
+  background: #dbdb87;
+  padding: 10px 20px;
+  margin: 0 0 2px;
+  text-align: left;
+}
+
+/* 閉じた時のスタイル */
+dt.closed {
+  background: rgba(185, 171, 144, 0.67);
+  cursor: pointer;
+}

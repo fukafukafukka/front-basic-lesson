@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* nav li { */
+nav a {
+  /* background: pink; */
+  width: 100px;
+  text-align: center;
+  line-height: 64px;
+  display: block;
+}
+
+nav a:hover {
+  background: #eee;
+}

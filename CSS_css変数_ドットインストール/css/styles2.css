@@ -1,0 +1,17 @@
+:root {
+  --my-color: blue;
+}
+
+/* body {
+  --my-color: blue;
+} */
+
+h1 {
+  /* --my-color: blue; */
+  color: var(--my-color);
+  border-bottom: 3px solid var(--my-color);
+}
+
+p {
+  color: var(--my-color);
+}

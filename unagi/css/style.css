@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+/* すべてのWebページに適用される */
+* {
+  font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'MS Mincho', 'sans', 'Arial', 'Hiragino Sans', 'ヒラギノ角ゴシック', YuGothic, 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic';
+}
+
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(184, 168, 137, 0.41);
+}
+
+/* 携帯*/
+@media (max-width: 767px) {
+  .wrapper {
+    margin: 30px 8px 0 8px;
+    max-width: 960px;
+  }
+
+  .misemei {
+    margin: 40px auto 20px auto;
+    padding: 50px 15px 10px 15px;
+    text-align: center;
+    color: #5d5547;
+    font-size: 28px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 0 auto;
+  }
+
+  .unagi {
+    text-align: center;
+  }
+
+  iframe {
+    margin: auto auto 0 auto;
+    max-width: 100%;
+  }
+
+  h2:after {
+    content: "";
+    display: block;
+    height: 4px;
+    background: -moz-linear-gradient(to right, rgb(137, 167, 86), transparent);
+    background: -webkit-linear-gradient(to right, rgb(137, 167, 86), transparent);
+    background: linear-gradient(to right, rgb(137, 167, 86), transparent);
+  }
+
+  h2 {
+    text-align: left;
+    margin: 45px auto 15px auto;
+    font-size: 85%;
+  }
+
+  h3 {
+    position: relative;
+    display: inline-block;
+    padding: 0 2.5em;
+    text-align: left;
+    font-size: 75%;
+  }
+
+  h3:before, h3:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 15%;
+    height: 1px;
+    background-color: rgb(137, 167, 86)
+  }
+
+  h3:before {
+    left: 0;
+  }
+
+  h3:after {
+    right: 0;
+  }
+
+  p {
+    line-height: 1.6;
+    font-size: 60%;
+  }
+
+  /* すべてのページに適用 -フッター- */
+  .last {
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    padding: 80px 15px 20px 15px;
+    text-align: right;
+    font-size: 15;
+    color: #5d5547;
+  }
+}
+
+/* PC */
+@media (min-width: 768px) {
+  .wrapper {
+    margin: 120px auto 0 auto;
+    max-width: 960px;
+  }
+
+  .misemei {
+    margin: 50px auto 50px auto;
+    padding: 50px 15px 10px 15px;
+    text-align: center;
+    color: #5d5547;
+    font-size: 60px;
+  }
+
+  img {
+    max-width: 90%;
+    height: auto;
+    margin: 0 15px 0 15px;
+  }
+
+  .unagi {
+    text-align: center;
+  }
+
+  iframe {
+    margin: auto auto 0 auto;
+    max-width: 100%;
+  }
+
+  h2:after {
+    content: "";
+    display: block;
+    height: 4px;
+    background: -moz-linear-gradient(to right, rgb(137, 167, 86), transparent);
+    background: -webkit-linear-gradient(to right, rgb(137, 167, 86), transparent);
+    background: linear-gradient(to right, rgb(137, 167, 86), transparent);
+  }
+
+  h2 {
+    text-align: left;
+    margin: 45px auto 15px auto;
+    font-size: 85%;
+  }
+
+  h3 {
+    position: relative;
+    display: inline-block;
+    padding: 0 2.5em;
+    text-align: left;
+    font-size: 75%;
+  }
+
+  h3:before, h3:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 15%;
+    height: 1px;
+    background-color: rgb(137, 167, 86)
+  }
+
+  h3:before {
+    left: 0;
+  }
+
+  h3:after {
+    right: 0;
+  }
+
+  p {
+    line-height: 1.6;
+    font-size: 60%;
+  }
+
+  /* すべてのページに適用 -フッター- */
+  .last {
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    padding: 80px 15px 20px 15px;
+    text-align: right;
+    font-size: 15;
+    color: #5d5547;
+  }
+}

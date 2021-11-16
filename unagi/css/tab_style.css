@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+/* 携帯*/
+@media (max-width: 767px) {
+  .tabSet {
+    margin: 60px auto 30px auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    /* 選択されているタブの細いところ */
+    background: #ffffff;
+  }
+
+  /* タブの色 */
+  .tabSet ul li a {
+    float: left;
+    color: #474137;
+    background: rgba(121, 106, 79, 0.3);
+    padding: .5em 2.75em;
+    display: none;
+    border-radius: 3px 3px 0 0;
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+  }
+
+  .tabSet ul li {
+    float: left;
+    display: inline;
+    padding: 0 2px 0 0;
+    list-style-type: none;
+  }
+
+  /* タブの背景 */
+  .tabSet ul {
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 20px 0;
+    /* 青かったところ */
+    background: rgba(121, 106, 79, 0.7);
+    *zoom: 1;
+    /* ie clear float */
+  }
+
+  .tabSet ul li a:hover {
+    text-decoration: underline;
+  }
+
+  /* 選択されているタブの色 */
+  .tabSet ul li a.on {
+    background: #ffffff;
+    cursor: default;
+    /* 選択されている文字の色 */
+    color: #5d5547;
+  }
+
+  .tabSet ul li a.on:hover {
+    text-decoration: none;
+  }
+
+  /* タブの中身の四角の色 */
+  .panels {
+    background: #ffffff;
+    min-height: 180px;
+  }
+
+  /* タブの中身の四角の文字の色 */
+  .panel {
+    background: #ffffff;
+    padding: 30px 30px;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .panel .tenyoshi {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 25px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel .syokuzi {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 35px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel .nomimono {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 35px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel .kodawari {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 35px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel .access {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 35px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel#panel1-3 {
+    text-align: left;
+  }
+}
+
+/* iPad*/
+@media (min-width: 768px) {
+  .tabSet {
+    margin: 60px 35px 30px 35px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    /* 選択されているタブの細いところ */
+    background: #ffffff;
+  }
+
+  /* タブの色 */
+  .tabSet ul li a {
+    float: left;
+    color: #5d5547;
+    background: rgba(121, 106, 79, 0.3);
+    padding: .5em 2.75em;
+    display: none;
+    border-radius: 3px 3px 0 0;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  .tabSet ul li {
+    float: left;
+    display: inline;
+    padding: 0 2px 0 0;
+    list-style-type: none;
+  }
+
+  /* タブの背景 */
+  .tabSet ul {
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 20px 0;
+    /* 青かったところ */
+    background: rgba(121, 106, 79, 0.7);
+    *zoom: 1;
+    /* ie clear float */
+  }
+
+  .tabSet ul li a:hover {
+    text-decoration: underline;
+  }
+
+  /* 選択されているタブの色 */
+  .tabSet ul li a.on {
+    background: #ffffff;
+    cursor: default;
+    /* 選択されている文字の色 */
+    color: #5d5547;
+  }
+
+  .tabSet ul li a.on:hover {
+    text-decoration: none;
+  }
+
+  /* タブの中身の四角の色 */
+  .panels {
+    background: #ffffff;
+    min-height: 180px;
+  }
+
+  /* タブの中身の四角の文字の色 */
+  .panel {
+    background: #ffffff;
+    padding: 30px 30px;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .panel .tenyoshi {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 25px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel .syokuzi {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 35px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel .nomimono {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 35px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel .kodawari {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 35px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel .access {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 35px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel#panel1-3 {
+    text-align: left;
+  }
+}
+
+/* iPadPro*/
+@media (min-width: 1024px) {
+  .tabSet {
+    margin: 80px 75px 30px 75px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    /* 選択されているタブの細いところ */
+    background: #ffffff;
+  }
+
+  /* タブの色 */
+  .tabSet ul li a {
+    float: left;
+    color: #5d5547;
+    background: rgba(121, 106, 79, 0.3);
+    padding: .5em 2.75em;
+    display: none;
+    border-radius: 3px 3px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .tabSet ul li {
+    float: left;
+    display: inline;
+    padding: 0 2px 0 0;
+    list-style-type: none;
+  }
+
+  /* タブの背景 */
+  .tabSet ul {
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 20px 0;
+    /* 青かったところ */
+    background: rgba(121, 106, 79, 0.7);
+    *zoom: 1;
+    /* ie clear float */
+  }
+
+  .tabSet ul li a:hover {
+    text-decoration: underline;
+  }
+
+  /* 選択されているタブの色 */
+  .tabSet ul li a.on {
+    background: #ffffff;
+    cursor: default;
+    /* 選択されている文字の色 */
+    color: #5d5547;
+  }
+
+  .tabSet ul li a.on:hover {
+    text-decoration: none;
+  }
+
+  /* タブの中身の四角の色 */
+  .panels {
+    background: #ffffff;
+    min-height: 180px;
+  }
+
+  /* タブの中身の四角の文字の色 */
+  .panel {
+    background: #ffffff;
+    padding: 30px 30px;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .panel .tenyoshi {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 25px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel .syokuzi {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 35px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel .nomimono {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 35px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel .kodawari {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 35px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel .access {
+    border-bottom: 1px dotted #000000;
+    margin: auto auto 35px auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .panel#panel1-3 {
+    text-align: left;
+  }
+}

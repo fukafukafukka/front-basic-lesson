@@ -1,0 +1,10 @@
+track_id	track_name	danceability	energy	key	loudness	mode	speechiness	acousticness	instrumentalness	liveness	valence	tempo	type	duration_ms	time_signature
+0iC7gPlTDXBHOXxb0Jk0cU	Miss Me, Miss You	0.781	0.739	4.0	-5.952	0.0	0.0461	0.124	0.00261	0.121	0.685	104.983	audio_features	270871.0	4.0
+6a7jtmzQrevcKhSTqYUgYi	夜が明ける頃に (feat. ASOBOiSM)	0.723	0.681	4.0	-8.525	1.0	0.433	0.725	0.0	0.245	0.61	170.053	audio_features	241066.0	4.0
+2LjUXunDvyWR2YrKGgMWpT	THE MOMENT	0.715	0.85	1.0	-5.036	1.0	0.0596	0.447	0.0	0.116	0.269	91.985	audio_features	202947.0	4.0
+3rawx5H78WxjEKOPNTrDRZ	SUNSET	0.727	0.701	0.0	-6.323	1.0	0.068	0.0892	1.61e-06	0.14	0.774	89.449	audio_features	161775.0	4.0
+26WwjBABRwIJPKhEcWpY4b	Kill My Heart (feat. Parson James & Qveen Herby)	0.784	0.702	11.0	-3.582	1.0	0.0464	0.0787	0.0	0.0505	0.742	125.944	audio_features	193136.0	4.0
+1duhdSPzeHmN3hHnYh90jX	台風が去った夜に	0.567	0.367	2.0	-8.975	1.0	0.0308	0.0505	0.00104	0.102	0.226	151.854	audio_features	306132.0	4.0
+2He9deEfdXYWxnTUi0oOb0	ずっとずっとずっと	0.68	0.906	10.0	-1.419	1.0	0.0478	0.158	0.0	0.122	0.806	127.989	audio_features	228546.0	4.0
+50NVtluqajoreBzbFxyz2A	Balmy Life	0.76	0.704	1.0	-5.069	1.0	0.221	0.246	0.0	0.381	0.829	103.948	audio_features	223373.0	4.0
+2Oo6ku8Iz3kAswDPLrc07O	El Sol	0.633	0.622	4.0	-7.436	1.0	0.0429	0.852	0.0047	0.111	0.615	106.151	audio_features	280629.0	4.0

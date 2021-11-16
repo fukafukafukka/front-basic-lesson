@@ -1,0 +1,9 @@
+img {
+  float: right;
+}
+
+h2 {
+  clear: right;
+  /* clear: left;
+  clear: both; */
+}

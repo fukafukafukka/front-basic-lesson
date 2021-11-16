@@ -1,0 +1,20 @@
+:root {
+  --my-color: blue;
+  /* --my-property: color; */
+  /* --my-margin-left: 32; */
+  /* --my-margin-left: 32px; */
+  --my-margin-left: 32;
+}
+
+h1 {
+  color: var(--my-color);
+  /* var(--my-property): var(--my-color); */
+  border-bottom: 3px solid var(--my-color);
+  /* margin-left: var(--my-margin-left)px; */
+  /* margin-left: var(--my-margin-left); */
+  margin-left: calc(var(--my-margin-left) * 1px);
+}
+
+p {
+  color: var(--my-color);
+}

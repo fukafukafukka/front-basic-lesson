@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.slideshow {
+  margin: 0 auto 0 auto;
+  max-width: 960px;
+}
+
+.slideshow {
+  width: 310px;
+  height: 210px;
+  margin: 0 10px 20px;
+  position: relative;
+  display: inline-block;
+  /* ie7以下用 inline-block */
+  *display: inline;
+  *zoom: 1;
+}
+
+.slideshow img {
+  display: block;
+  border: 0;
+}
+
+/* a要素は絶対配置で一か所に重ねる */
+.slideshow a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 5px solid #fff;
+}
+
+/* 2番目以降のimg要素にclass="alt"を付け、消す */
+.slideshow a.alt {
+  display: none;
+}

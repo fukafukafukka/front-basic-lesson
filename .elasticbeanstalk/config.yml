@@ -1,0 +1,20 @@
+branch-defaults:
+  default:
+    environment: EbWordpress-env-fukasawa
+environment-defaults:
+  EbWordpress-env-fukasawa:
+    branch: null
+    repository: null
+global:
+  application_name: EB-WordPress
+  default_ec2_keyname: AWS_Book_Key
+  default_platform: arn:aws:elasticbeanstalk:ap-northeast-1::platform/PHP 7.3 running
+    on 64bit Amazon Linux/2.9.1
+  default_region: ap-northeast-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  sc: null
+  workspace_type: Application
